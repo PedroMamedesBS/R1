@@ -1,0 +1,19 @@
+body{
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+}
+input,button{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 8px;
+    border-color: transparent;
+}
+input::placeholder{
+    color: rgb(128, 128, 128);
+}
+button:hover{
+    background-color: rgb(180, 179, 179);
+}
+button{
+    cursor: pointer;}
